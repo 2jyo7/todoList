@@ -27,9 +27,9 @@ const Form = () => {
    }
   
    return (
-    <div className="flex flex-col m-14 p-14
+    <div className="flex flex-col items-center m-14 p-14
          bg-purple-300 text-white">
-   <form className="flex justify-start gap-10 w-3/4" 
+   <form className="flex flex-col relative  items-center gap-5" 
    onSubmit={handleSubmit}
    >
     <div className="flex items-center">
@@ -65,13 +65,13 @@ const Form = () => {
 
     <button className="bg-blue-500  hover:bg-blue-700
     rounded  text-white
-     font-semibold m-3 p-3">
+     font-semibold m-3 p-4">
         Add Tasks
     </button>
 
    </form>
 
-       <div className="flex justify-between gap-5 
+       <div className="flex justify-between gap-5 w-full md:w-1/3
                 bg-white text-orange-500 m-3 p-3 text-lg
                  font-semibold">
         { (mainTask.length === 0 ) ? <h5 className="text-black

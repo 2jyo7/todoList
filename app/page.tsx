@@ -12,7 +12,7 @@ const Page = () => {
      <p className="flex justify-center
         font-semibold text-xl
      text-black bg-gray-400
-     m-3 p-5"> 
+     m-3 mr-3 ml-3 p-5"> 
        Hello There! Welcome to your TODO List app.<br />
         Add as many Tasks you want, whos"s gonna stop you Love.
        </p>
